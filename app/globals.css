@@ -1,5 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   background-color: black;
+  color: white;
   overflow: auto;
   height: 3000px;
 }
@@ -27,7 +32,6 @@ td:hover {
 }
 #aum {
   text-decoration: none;
-  color: black; 
 
 
 }
@@ -39,6 +43,7 @@ td:hover {
   size: 60px;
   justify-content: center;
   transition: 0.5s;
+  color: white;
   border-color: white;
   border-radius: 5cm;
   box-shadow: 5px -4px gray;

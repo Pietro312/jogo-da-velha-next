@@ -30,12 +30,16 @@ export default function Home() {
         </tbody>
       </table>
       <button id="um" >
-        <a id="aum" href="/">Reiniciar</a>
+        <a id="aum" href="/">
+          <span class="material-symbols-outlined">
+            refresh
+          </span>
+        </a>
       </button>
       <button id="dois" onClick={add}>
         +1 ponto
       </button>
-      <span id="spanum" className="text-white">
+      <span id="spanum" >
         {pontos}
       </span>
 

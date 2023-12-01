@@ -1,4 +1,8 @@
 "use client"
+import { useState } from "react";
+
+import { LuRefreshCw } from "react-icons/lu";
+
 export default function Home() {
   let pontos = 0
   function add () {
@@ -7,6 +11,8 @@ export default function Home() {
     if(count) count.innerHTML = pontos.toString()
     console.log (pontos)
   }
+  const tabela = 1+1
+  const jogador = "X"
   
   return (
     <div>
@@ -14,7 +20,7 @@ export default function Home() {
       <table>
         <tbody>
           <tr>
-            <td></td>
+            <td>{tabela}</td>
             <td></td>
             <td></td>
           </tr> 
@@ -29,23 +35,13 @@ export default function Home() {
           </tr> 
         </tbody>
       </table>
-      <button id="um" >
-        <a id="aum" href="/">
-          <span class="material-symbols-outlined">
-            refresh
-          </span>
-        </a>
-      </button>
+      <a id="aum"href="/"><LuRefreshCw/></a>
       <button id="dois" onClick={add}>
         +1 ponto
       </button>
       <span id="spanum" >
         {pontos}
       </span>
-
-    
-    
-    
     </div>
   )
 

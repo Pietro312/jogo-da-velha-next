@@ -46,7 +46,7 @@ export default function Home() {
         <a id="dois" onClick={add}>
           <IoMdAdd />
         </a>
-        <a id="casinha" href="./Capa"><FaHouse /></a>
+        <a id="casinha" href="/"><FaHouse /></a>
       </div>
       <span id="spanum">
         {pontos}

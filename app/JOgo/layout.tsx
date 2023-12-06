@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
-import { Roboto_Condensed } from 'next/font/google'
+import { Rubik_Bubbles } from 'next/font/google'
 import './globals.css'
 
-const roboto = Roboto_Condensed({ 
-  weight: '900',
+const rubik = Rubik_Bubbles({ 
+  weight: '400',
   subsets: ['latin'],
   display: 'swap',
   
@@ -25,7 +25,7 @@ export default function RootLayout({
       <title>
         Jogo da Velha
       </title>
-      <body className={roboto.className}>{children}</body>
+      <body className={rubik.className}>{children}</body>
     </html>
   )
 }

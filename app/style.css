@@ -1,22 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+
 h1 {
- font-size: 100px;
- text-align: center;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Rubik Vinyl'
 }
 a {
  text-decoration: none;
  color: black;
+ align-items: center;
  text-align: center;
  font-size: 80px;
  display: flex;
  justify-content: center;
  border-radius: 50%;
- padding: 15px;
+ padding: 25px;
+margin-bottom: 40px;
 }
 div {
     margin-top: 160px;
 }
 a:hover {
-   transition: 10ms;
+   transition: 50ms;
    scale: 130%;
-    
+   background-color: gray;
+   display: flex;
+}
+
+
+.botao{
+ display: flex;
+ justify-content: center;
+ margin-bottom: 50px;
 }

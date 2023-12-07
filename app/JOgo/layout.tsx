@@ -1,12 +1,11 @@
 import type { Metadata } from 'next'
-import { Rubik_Bubbles } from 'next/font/google'
+import {Rubik_Bubbles} from 'next/font/google'
 import './globals.css'
-
-const rubik = Rubik_Bubbles({ 
-  weight: '400',
-  subsets: ['latin'],
-  display: 'swap',
   
+
+export const rubik = Rubik_Bubbles({
+  subsets: ['latin'],
+  weight : '400',
 })
 
 export const metadata: Metadata = {
@@ -26,6 +25,6 @@ export default function RootLayout({
         Jogo da Velha
       </title>
       <body className={rubik.className}>{children}</body>
-    </html>
+    </html> 
   )
 }

@@ -6,22 +6,16 @@ import { FaHouse } from "react-icons/fa6";
 
 
 
-
 export default function Home() {
   let pontos = 0
   function add() {
-    pontos = pontos + 1
+    pontos = pontos+1
     let count = document.querySelector("#spanum")
     if (count) count.innerHTML = pontos.toString()
     console.log(pontos)
   }
-
-
-  const tabela = 1 + 1
-  const jogador = "X"
-
   return (
-    <div>
+    <div id="tudao">
       <h1>Jogo da Velha</h1>
       <table>
         <tbody>
@@ -48,10 +42,9 @@ export default function Home() {
         </a>
         <a id="casinha" href="/"><FaHouse /></a>
       </div>
-      <span id="spanum">
+      <span id="pontos">
         {pontos}
       </span>
     </div>
   )
-
 }

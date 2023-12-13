@@ -33,21 +33,22 @@ td:hover {
 }
 
 #aum {
+  padding: 15px;
   border-radius: 60%;
+  text-decoration: none;
   color: white;
   transition: 0.8s;
-  height: 50px;
-  margin-top: 0px;
   font-size: 50px;
 }
 #dois {
-  font-size: 50px;
-  border-radius: 60%;
   padding: 15px;
-  height: 50px;
+  border-radius: 60%;
+  text-decoration: none;
+  color: white;
   transition: 0.8s;
-  color: white; 
-}
+  font-size: 60px;
+ }
+
 #casinha {
 padding: 15px;
 border-radius: 60%;
@@ -75,7 +76,8 @@ a:hover {
   font-size: 40px;
   padding: 10px;
   margin-top: 10px;
-  
+  align-items: center;
+  justify-content: center;
 }
 #tudao { 
   margin-top: 0px;

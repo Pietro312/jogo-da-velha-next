@@ -2,9 +2,9 @@ body {
   background-color: rgb(39, 39, 39);
   color: white;
   overflow: auto;
-  height: 3000px;
 }
-td { 
+
+td {
   font-size: 80px;
   background-color: white;
   margin-top: 100px;
@@ -14,19 +14,22 @@ td {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
-h1 { 
+
+h1 {
   color: white;
   font-size: 50px;
-  
-  
+
+
 }
-div { 
+
+div {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
-td:hover { 
+
+td:hover {
   background-color: gray;
   cursor: pointer;
   transition: 0.4s;
@@ -40,22 +43,23 @@ td:hover {
   transition: 0.8s;
   font-size: 50px;
 }
+
 #dois {
-  padding: 15px;
+  padding: 10px;
   border-radius: 60%;
   text-decoration: none;
   color: white;
   transition: 0.8s;
   font-size: 60px;
- }
+}
 
 #casinha {
-padding: 15px;
-border-radius: 60%;
-text-decoration: none;
-color: white;
-transition: 0.8s;
-font-size: 50px;
+  padding: 15px;
+  border-radius: 60%;
+  text-decoration: none;
+  color: white;
+  transition: 0.8s;
+  font-size: 50px;
 }
 
 a:hover {
@@ -79,6 +83,14 @@ a:hover {
   align-items: center;
   justify-content: center;
 }
-#tudao { 
+
+#tudao {
   margin-top: 0px;
+}
+
+#tita {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
 }

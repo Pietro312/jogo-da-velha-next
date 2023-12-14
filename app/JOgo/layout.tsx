@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+
 import {Rubik_Bubbles} from 'next/font/google'
 import './globals.css'
   

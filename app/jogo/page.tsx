@@ -207,6 +207,7 @@ return (
     </div>
     <div className="flex flex-row gap-[20px] text-[40px] p-[10px] items-center justify-center">
       <a className="p-[15px] rounded-[60%] no-underline text-white transition text-[50px]" href="./jogo"><LuRefreshCw /></a>
+     
       <a className="p-[15px] rounded-[60%] no-underline text-white transition text-[50px]" href="/"><FaHouse /></a>
     </div>
 

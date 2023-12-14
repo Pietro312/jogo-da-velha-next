@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 import {Roboto} from 'next/font/google'
   
-export const rubik = Roboto({
+export const roboto = Roboto({
   subsets: ['latin'],
   weight : '400',
 })
@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
 
      
-      <body className={rubik.className}>{children}</body>
+      <body className={roboto.className}>{children}</body>
     </html>
   )
 }
